@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const express = require('express')
 const peliculas = require('./movies.json')
 const { agregarDatos } = require('./schema/movie.js')
@@ -205,5 +204,3 @@ app.delete('/peliculas/:id', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server on port http://localhost:${PORT}`)
 })
-
->>>>>>> 862605a7ed85f9c2bdc7b25fdbf564429716060e

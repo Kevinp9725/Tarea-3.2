@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const z = require('zod')
 
 const agregar = z.object({
@@ -36,5 +35,4 @@ const agregarDatos = (pelicula) => {
 
 module.exports = {
   agregarDatos
->>>>>>> 862605a7ed85f9c2bdc7b25fdbf564429716060e
 }

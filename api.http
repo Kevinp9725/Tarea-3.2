@@ -31,37 +31,3 @@ content-type: application/json
 
 ###
 DELETE  http://localhost:3000/peliculas/467b08c2-75bc-4bde-ae64-3fe8ecb6a29b
-=======
-###
-GET http://localhost:3000/peliculas
-
-###
-GET http://localhost:3000/peliculas/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
-
-###
-POST http://localhost:3000/peliculas
-content-type: application/json
-
-{
-    "title": "Call Me by Your Name",
-    "year": 2017,
-    "director": "Luca Guadagnino",
-    "duration": 132,
-    "poster": "https://pics.filmaffinity.com/Call_Me_by_Your_Name-865431375-large.jpg",
-    "genre": [
-      "Drama",
-      "Romance"
-    ],
-    "rate": 7.8
-}
-
-###
-PUT http://localhost:3000/peliculas/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
-content-type: application/json
-
-{
-     "title": "The Shawshank Redemption"
-}
-
-###
-DELETE  http://localhost:3000/peliculas/467b08c2-75bc-4bde-ae64-3fe8ecb6a29b

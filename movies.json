@@ -1,5 +1,18 @@
 [
   {
+    "id": "cc104daf-d4e3-4198-8780-ace083f3884f",
+    "title": "Call Me by Your Name",
+    "year": 2017,
+    "director": "Luca Guadagnino",
+    "duration": 132,
+    "poster": "https://pics.filmaffinity.com/Call_Me_by_Your_Name-865431375-large.jpg",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "rate": 7.8
+  },
+  {
     "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
     "title": "The Shawshank Redemption",
     "year": 1994,
